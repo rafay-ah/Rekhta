@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rectangle_poet"
+            android:fontFamily="@font/urdu"
+            android:gravity="center"
+            android:onClick="clicked"
+            android:text="@string/Poet1"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rectangle_poet"
+            android:fontFamily="@font/urdu"
+            android:gravity="center"
+            android:onClick="clicked"
+            android:text="@string/Poet2"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rectangle_poet"
+            android:fontFamily="@font/urdu"
+            android:gravity="center"
+            android:onClick="clicked"
+            android:text="@string/Poet3"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rectangle_poet"
+            android:fontFamily="@font/urdu"
+            android:gravity="center"
+            android:onClick="clicked"
+            android:text="@string/Poet4"
+            android:textSize="32sp" />
+
+
+    </GridLayout>
+</LinearLayout>

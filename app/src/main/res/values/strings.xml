@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Rekhta</string>
+    <string name="Poet1">علامہ اقبال</string>
+    <string name="Poet2">فیض احمد فیض</string>
+    <string name="Poet3">مرزا غالب</string>
+    <string name="Poet4">مومن خاں مومن</string>
+    <string name="title_activity_genre">Genre</string>
+    <string name="tab_text_1">SHAIR</string>
+    <string name="tab_text_2">NAZAM</string>
+    <string name="tab_text_3">GHAZAL</string>
+    <string name="some_verse1">کٹتی ہے آرزو کے سہارے پہ زندگی</string>
+    <string name="some_verse2">   کیسے کہوں کسی کی تمنا نہ چاہئے </string>
+
+</resources>
